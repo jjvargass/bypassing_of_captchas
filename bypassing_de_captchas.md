@@ -30,7 +30,9 @@ sudo systemctl restart apache2.service
 ### 1.2 Montar Plantilla de captchas
 Utilizar un recurso de la web en el que se proporcionan las plantillas.   
 `Googlear: create a simple captcha script using php`
+
 ![Goglear create](/img/1.png)
 
 ![Pagina create captcha](/img/2.png)
+
 [ALLPHPTRICKS](https://www.allphptricks.com/create-a-simple-captcha-script-using-php/)
