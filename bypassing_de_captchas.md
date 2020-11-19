@@ -36,3 +36,16 @@ Utilizar un recurso de la web en el que se proporcionan las plantillas.
 ![Pagina create captcha](/img/2.png)
 
 [ALLPHPTRICKS](https://www.allphptricks.com/create-a-simple-captcha-script-using-php/)
+
+####
+```bash
+sudo cp * /var/www/html
+sudo chown www-data:www-data -R /var/www/html/
+```
+php.ini
+```bash
+cd /etc/php/7.4/apache2
+# add
+extension=php_gd2.dll
+
+```
